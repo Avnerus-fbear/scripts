@@ -30,9 +30,9 @@
 
 ### Afternoon: River & Islands
 
-- **Sörnäinen Island** — A recreational island connected by bridge. Has a sandy beach, playground, and shallow water perfect for a 2yo. Very relaxed, family-friendly.
-  - 📍 Sörnäistenkatu 15
-  - 💡 Bring swimsuits! The shallow beach is ideal for toddlers
+- **Ispoinen Beach** (or **Saaronniemi Beach** on Ruissalo) — Turku's best child-friendly sand beaches, both free. Ispoinen has a children's playground, changing area, toilets, sauna, and a kiosk. Saaronniemi (on Ruissalo island, reachable by free summer ferry from Market Square) has a playground, changing rooms, showers, and a bookable sauna. Both are lifeguard-supervised in summer.
+  - 📍 Ispoinen: Rykmentintie 51 | Saaronniemi: Saarontie 59, Ruissalo
+  - 💡 Bring swimsuits! The shallow sandy beach is ideal for toddlers. Saaronniemi is especially nice — you get a free ferry ride there too (kids love boats)
 
 - **Föri Ferry** — The free ferry crossing the Aura River. Kids love boats! It runs continuously and is completely free.
   - 📍 Departs from Market Square side
@@ -183,7 +183,7 @@ You're visiting during **Moomin Family's Midsummer Dance** — extra special!
 
 ### Final Afternoon
 
-- **Sörnäinen beach** return visit or **Lastenlinna** (Children's Castle) playground if time allows
+- **Ispoinen Beach** or **Saaronniemi (Ruissalo)** return visit — great for a relaxed Sunday afternoon with the kids
 - **Ice cream** at the Market Square — a proper trip finale 🍦
 
 ---
