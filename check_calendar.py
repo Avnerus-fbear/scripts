@@ -202,7 +202,15 @@ def parse_ics_events(ics_content, start_date, end_date):
                     # Convert start_date and end_date to timezone-aware for comparison
                     start_aware = start_date.replace(tzinfo=ZoneInfo("Europe/Helsinki"))
                     end_aware = end_date.replace(hour=23, minute=59, second=59, tzinfo=ZoneInfo("Europe/Helsinki"))
-                    if start_aware <= dtstart <= end_aware:
+                    # Check if event overlaps the range: dtstart must be before end AND dtend must be after start
+                    # (handles events that started before the range but are still ongoing)
+                    dtend = None
+                    if "dtend" in current_event:
+                        dtend = parse_ics_datetime(current_event["dtend"])
+                        # Ensure dtend is timezone-aware for comparison
+                        if dtend and dtend.tzinfo is None:
+                            dtend = dtend.replace(tzinfo=ZoneInfo("Europe/Helsinki"))
+                    if dtstart <= end_aware and (dtend is None or dtend >= start_aware):
                         events.append(current_event)
                 in_event = False
         elif line == "BEGIN:VTIMEZONE":
