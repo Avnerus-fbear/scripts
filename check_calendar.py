@@ -119,6 +119,50 @@ def parse_rrule(rrule_str, dtstart, end_date):
     
     occurrences = []
     
+    # Handle yearly frequency (e.g., birthdays, anniversaries)
+    if freq == "YEARLY":
+        start_year = dtstart.year
+        end_year = end_date.year
+        for year in range(start_year, end_year + 1):
+            try:
+                occ = dtstart.replace(year=year).date()
+                if occ > end_date.date():
+                    break
+                if count is not None and len(occurrences) >= count:
+                    break
+                occurrences.append(occ)
+            except ValueError:
+                # e.g. Feb 29 in non-leap year
+                pass
+        return occurrences
+
+    # Handle monthly frequency
+    if freq == "MONTHLY":
+        start_month = dtstart.year * 12 + dtstart.month
+        end_month = end_date.year * 12 + end_date.month
+        month_offset = 0
+        while True:
+            m = start_month + month_offset * interval
+            if m > end_month:
+                break
+            y = m // 12
+            mo = m % 12 if m % 12 != 0 else 12
+            if mo == 0:
+                mo = 12
+                y -= 1
+            try:
+                occ = dtstart.replace(year=y, month=mo).date()
+            except ValueError:
+                month_offset += 1
+                continue
+            if count is not None and len(occurrences) >= count:
+                break
+            if occ > end_date.date():
+                break
+            occurrences.append(occ)
+            month_offset += 1
+        return occurrences
+
     # Handle weekly frequency
     if freq == "WEEKLY" and byday:
         day_map = {
