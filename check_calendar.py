@@ -403,9 +403,14 @@ def format_events_for_display(events, start_date, end_date):
                     is_all_day = True
                 else:
                     time_str = dt.strftime("%H:%M")
-                weekday_str = format_weekday_name(dtstart)
                 # Use occurrence_date if available (for recurring events), otherwise use dtstart
                 check_date = occurrence_date if occurrence_date else dt.date()
+                # For recurring events, get weekday from the actual occurrence date, not the original DTSTART
+                if occurrence_date:
+                    weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+                    weekday_str = weekdays[occurrence_date.weekday()]
+                else:
+                    weekday_str = format_weekday_name(dtstart)
                 # Check if this event is happening today
                 if check_date == start_date.date():
                     today_str = " (Today)"
