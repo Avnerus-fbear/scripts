@@ -139,11 +139,11 @@ def check_mailbox(imap, mailbox_name, readonly=True):
             subject = decode_header_text(subject)
             from_name = decode_header_text(from_name)
             
-            # Check if subject contains lasku or invoice (case-insensitive)
+            # Check if subject contains lasku, invoice, or vero (case-insensitive)
             subject_lower = subject.lower()
             
-            if 'lasku' in subject_lower or 'invoice' in subject_lower:
-                print(f"  ✅ Found invoice/lasku: {subject}")
+            if 'lasku' in subject_lower or 'invoice' in subject_lower or 'vero' in subject_lower:
+                print(f"  ✅ Found invoice/lasku/vero: {subject}")
                 
                 # Check body for these terms as well
                 status, body_data = imap.fetch(msg_id, '(BODY.PEEK[])')
@@ -175,7 +175,7 @@ def check_mailbox(imap, mailbox_name, readonly=True):
                                 pass
                         
                         body_lower = body_text.lower()
-                        if 'lasku' in body_lower or 'invoice' in body_lower:
+                        if 'lasku' in body_lower or 'invoice' in body_lower or 'vero' in body_lower:
                             invoice_emails.append({
                                 'id': msg_id_str,
                                 'subject': subject,
@@ -204,7 +204,7 @@ with imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT, ssl_context=context) as imap:
     all_invoice_emails.extend(check_mailbox(imap, "shared/odroid", readonly=True))
     
     if all_invoice_emails:
-        print(f"\n✓ Found {len(all_invoice_emails)} invoice/lasku email(s):\n")
+        print(f"\n✓ Found {len(all_invoice_emails)} invoice/lasku/vero email(s):\n")
         print("=" * 60)
         for i, email in enumerate(all_invoice_emails, 1):
             print(f"{i}. [{email['id']}] - {email['mailbox']}")
@@ -212,4 +212,4 @@ with imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT, ssl_context=context) as imap:
             print(f"   Subject: {email['subject']}")
             print()
     else:
-        print("No invoice or 'lasku' related emails found in unread messages.")
+        print("No invoice, 'lasku', or 'vero' related emails found in unread messages.")

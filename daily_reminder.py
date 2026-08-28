@@ -7,7 +7,7 @@ Usage:
 Output sections:
 1. Tasks (all active, grouped by project)
 2. Calendar events (next 7 days)
-3. Invoice check (unread emails with 'lasku'/'invoice' in shared mailbox)
+3. Invoice check (unread emails with 'lasku'/'invoice'/'vero' in shared mailbox)
 4. llama.cpp commits (last 24h)
 """
 
