@@ -117,10 +117,18 @@ def check_mailbox(imap, mailbox_name, readonly=True):
             if status != "OK":
                 continue
             
-            # Parse envelope
-            envelope_raw = msg_data[0]
-            if isinstance(envelope_raw, tuple) and len(envelope_raw) >= 2:
-                envelope_raw = envelope_raw[1]
+            # Parse envelope.
+            # IMPORTANT: imaplib splits the response into a tuple whenever the
+            # server sends a {N} literal (long subject OR long msg-id).
+            # item[0] is the envelope prefix, item[1] is the literal — the
+            # envelope is the CONCATENATION of all parts. Taking item[1]
+            # alone grabs the msg-id literal and loses the subject.
+            envelope_raw = b''.join(
+                part
+                for item in msg_data
+                for part in (item if isinstance(item, tuple) else [item])
+                if isinstance(part, (bytes, bytearray))
+            )
             
             subject, from_name = parse_envelope(envelope_raw)
             

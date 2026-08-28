@@ -198,9 +198,15 @@ def search_mailbox(mailbox, since=None, before=None, keyword=None, subject_only=
             if status != "OK":
                 continue
 
-            envelope_raw = msg_data[0]
-            if isinstance(envelope_raw, tuple) and len(envelope_raw) >= 2:
-                envelope_raw = envelope_raw[1]
+            # imaplib splits the response into a tuple when the server sends a
+            # {N} literal (long subject OR long msg-id). The envelope is the
+            # concatenation of all byte parts — never take a single item.
+            envelope_raw = b''.join(
+                part
+                for item in msg_data
+                for part in (item if isinstance(item, tuple) else [item])
+                if isinstance(part, (bytes, bytearray))
+            )
 
             subject, from_name, date_str = parse_envelope(envelope_raw)
 
