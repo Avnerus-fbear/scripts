@@ -164,27 +164,31 @@ def parse_rrule(rrule_str, dtstart, end_date):
         return occurrences
 
     # Handle weekly frequency
-    if freq == "WEEKLY" and byday:
+    if freq == "WEEKLY":
         day_map = {
             "MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6
         }
-        target_weekday = day_map.get(byday)
-        if target_weekday is not None:
-            # Get the weekday of dtstart (convert to date)
-            dtstart_date = dtstart.date() if hasattr(dtstart, 'date') else dtstart
-            
+        # Get the weekday of dtstart (convert to date)
+        dtstart_date = dtstart.date() if hasattr(dtstart, 'date') else dtstart
+
+        if byday:
+            target_weekday = day_map.get(byday)
+            if target_weekday is None:
+                return occurrences
             # Find the first occurrence on or after dtstart_date that matches the target weekday
             days_until_target = (target_weekday - dtstart_date.weekday()) % 7
-            current = dtstart_date + timedelta(days=days_until_target)
-            
-            while current <= end_date.date():
-                # Check if current occurrence falls on the target weekday
-                if current.weekday() == target_weekday:
-                    occurrences.append(current)
-                if count and len(occurrences) >= count:
-                    break
-                current += timedelta(weeks=interval)
-    
+        else:
+            # No BYDAY: per RFC 5545, recurs on the same weekday as DTSTART
+            days_until_target = 0
+
+        current = dtstart_date + timedelta(days=days_until_target)
+
+        while current <= end_date.date():
+            occurrences.append(current)
+            if count and len(occurrences) >= count:
+                break
+            current += timedelta(weeks=interval)
+
     return occurrences
 
 def format_weekday_name(dtstart_str):
