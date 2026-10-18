@@ -1,22 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="981" height="630" viewBox="0 0 981 630">
-<title>Katiskoski cottage area: distance rings and points of interest</title>
-<circle cx="511" cy="383" r="109.3" fill="none" stroke="#fff200" stroke-opacity="0.95" stroke-width="1.8" stroke-dasharray="7,6"/>
-<line x1="502" y1="274" x2="520" y2="274" stroke="#fff200" stroke-width="2.4"/>
-<rect x="524" y="259" width="34" height="26" rx="4" fill="#111" fill-opacity="0.82" stroke="#fff200" stroke-width="1.2"/>
-<text x="541" y="279" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" fill="#fff200">1</text>
-<circle cx="511" cy="383" r="218.6" fill="none" stroke="#fff200" stroke-opacity="0.75" stroke-width="1.8" stroke-dasharray="7,6"/>
-<line x1="502" y1="164" x2="520" y2="164" stroke="#fff200" stroke-width="2.4"/>
-<rect x="524" y="149" width="34" height="26" rx="4" fill="#111" fill-opacity="0.82" stroke="#fff200" stroke-width="1.2"/>
-<text x="541" y="169" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" fill="#fff200">2</text>
-<circle cx="511" cy="383" r="327.9" fill="none" stroke="#fff200" stroke-opacity="0.55" stroke-width="1.8" stroke-dasharray="7,6"/>
-<line x1="502" y1="55" x2="520" y2="55" stroke="#fff200" stroke-width="2.4"/>
-<rect x="524" y="40" width="34" height="26" rx="4" fill="#111" fill-opacity="0.82" stroke="#fff200" stroke-width="1.2"/>
-<text x="541" y="60" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" fill="#fff200">3</text>
-<circle cx="511" cy="383" r="8" fill="#ff2a2a" stroke="white" stroke-width="2.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="981" height="630">
+<circle cx="553" cy="381" r="92.4" fill="none" stroke="#fff200" stroke-opacity="0.95" stroke-width="1.8" stroke-dasharray="7,6"/>
+<line x1="544" y1="273" x2="562" y2="273" stroke="#fff200" stroke-width="2.4"/>
+<rect x="566" y="258" width="34" height="26" rx="4" fill="#111111" fill-opacity="0.82" stroke="#fff200" stroke-width="1.2"/>
+<text x="583" y="278" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" fill="#fff200">1</text>
+<circle cx="553" cy="381" r="184.8" fill="none" stroke="#fff200" stroke-opacity="0.75" stroke-width="1.8" stroke-dasharray="7,6"/>
+<line x1="544" y1="165" x2="562" y2="165" stroke="#fff200" stroke-width="2.4"/>
+<rect x="566" y="150" width="34" height="26" rx="4" fill="#111111" fill-opacity="0.82" stroke="#fff200" stroke-width="1.2"/>
+<text x="583" y="170" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" fill="#fff200">2</text>
+<circle cx="553" cy="381" r="277.2" fill="none" stroke="#fff200" stroke-opacity="0.55" stroke-width="1.8" stroke-dasharray="7,6"/>
+<line x1="544" y1="58" x2="562" y2="58" stroke="#fff200" stroke-width="2.4"/>
+<rect x="566" y="43" width="34" height="26" rx="4" fill="#111111" fill-opacity="0.82" stroke="#fff200" stroke-width="1.2"/>
+<text x="583" y="63" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" fill="#fff200">3</text>
+<circle cx="553" cy="381" r="8" fill="#ff2a2a" stroke="white" stroke-width="2.5"/>
 <circle cx="513" cy="354" r="8" fill="#ff9500" stroke="white" stroke-width="2.5"/>
 <circle cx="578" cy="442" r="8" fill="#00cfff" stroke="white" stroke-width="2.5"/>
-<rect x="32" y="590" width="24" height="30" rx="5" fill="#111" fill-opacity="0.82"/>
-<line x1="44" y1="604" x2="44" y2="604" stroke="white" stroke-width="3.5"/>
+<rect x="32" y="590" width="125" height="30" rx="5" fill="#111111" fill-opacity="0.82"/>
+<line x1="44" y1="604" x2="136" y2="604" stroke="white" stroke-width="3.5"/>
 <line x1="44" y1="596" x2="44" y2="612" stroke="white" stroke-width="3"/>
-<line x1="44" y1="596" x2="44" y2="612" stroke="white" stroke-width="3"/>
+<line x1="136" y1="596" x2="136" y2="612" stroke="white" stroke-width="3"/>
 </svg>
