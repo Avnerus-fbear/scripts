@@ -152,18 +152,12 @@ Nothing verified in Katiskoski itself. Closest known sit-down options are in tow
 
 ---
 
-## Day 2 — Tuesday 20 Oct: Häme Castle (kids' programme week!) + town 🏰
+## Day 2 — Tuesday 20 Oct: Häme Castle + town 🏰
 
 *Overcast and still dry. Castle first, indoor warmth, then optional rain-proof town stops.*
 
-### Why Tuesday is actually lucky
-The castle's children's programme **Hovinarrin tupa ("Court Jester's Room")** runs **13–18 October 2026**, i.e. it overlaps your stay:
-> *"A functional, experiential space for children, where history comes alive through play and exploration… children can build castle walls, climb onto a horse and dress up as in the Middle Ages… intended for about **4–9-year-olds**. Children must always have their own adult with them. Under-7s get in free to Hovinarrin tupa; 7–18-year-olds and adults pay normal admission."*
-> — [Suomen kansallismuseo: Hovinarrin tupa](https://suomenkansallismuseo.fi/nayttelyt-ja-tapahtumat/hovinarrin-tupa-syksy2026/), open **Tue–Fri 13 Oct–16 Oct 10:30–15:30 and Sat–Sun 17–18 Oct 11:30–15:30**
-
-⚠️ **Important honesty note:** the published dates are **13–18 October**. That is *before* your Monday arrival, so by Tuesday 20 Oct it may already be closed. **Call +358 295 33 6931 and ask whether anything of the autumn children's programme still runs on Tue 20 / Wed 21.** If not, the castle is still absolutely worth it — see below.
-
-Also note: the special *"Kolot ja kolkat"* behind-the-scenes tower tour ran **13 and 15 Oct** only, costs €10/person, lasts 75 min and has a **recommended age of 6+** — not suitable for your kids anyway (tight spaces, ladders).
+### One thing that is definitely NOT happening
+The castle's autumn school-holiday children's programme ran **13–18 October 2026** and has now ended, so there is nothing extra to plan around on Tue 20 / Wed 21 — no booking needed and nothing to chase. The castle itself is open year-round as normal (hours below), and the permanent exhibitions listed there are exactly what works with a 4-year-old.
 
 ### Hämeen linna (Häme Castle) — the main event
 Scandinavia's best-preserved stone castle, building began in the 1200s, brick-built (unusual in Finland), later a prison, now a museum open year-round.
@@ -303,10 +297,10 @@ Centre parking fees and rules are from the city's [mobility page](https://www.ha
 ## Sources checked (18 Oct 2026)
 
 - City of Hämeenlinna — [Top 10 sights](https://www.hameenlinna.fi/matkailu-ja-tapahtumat/nae-ja-koe-hameenlinnassa/top-10-nahtavyydet-hameenlinnassa/), [Aulanko](https://www.hameenlinna.fi/matkailu-ja-tapahtumat/nae-ja-koe-hameenlinnassa/luontoelamysten-aulanko/), [Ahvenisto](https://www.hameenlinna.fi/matkailu-ja-tapahtumat/nae-ja-koe-hameenlinnassa/ahvenisto/), [Museums](https://www.hameenlinna.fi/matkailu-ja-tapahtumat/kohteita/museot/), [Outdoor & hiking](https://www.hameenlinna.fi/kulttuuri-ja-liikunta/liikunta-ja-ulkoilu/ulkoilu-ja-retkeily/), [Swimming halls/beaches](https://www.hameenlinna.fi/hyvinvointi-ja-liikunta/liikunta-ja-ulkoilu/uimahallit-ja-rannat/), [Restaurants](https://www.hameenlinna.fi/kohdekategoria/syo-ja-juo/?fwp_spotcard_categories_facet=ruokaravintolat), [Mobility & parking](https://www.hameenlinna.fi/en/housing-and-environment/public-transport-and-mobility-in-hameenlinna/), [English Aulanko page](https://www.hameenlinna.fi/en/tourism-and-events/aulanko-the-beauty-of-finnish-nature/)
-- National Museum of Finland — [Hämeen linna](https://suomenkansallismuseo.fi/kohde/hameen-linna/), [Vankila](https://suomenkansallismuseo.fi/kohde/vankila/), [Hovinarrin tupa](https://suomenkansallismuseo.fi/nayttelyt-ja-tapahtumat/hovinarrin-tupa-syksy2026/)
+- National Museum of Finland — [Hämeen linna](https://suomenkansallismuseo.fi/kohde/hameen-linna/), [Vankila](https://suomenkansallismuseo.fi/kohde/vankila/)
 - [Museo Militaria (EN)](https://www.museomilitaria.fi/museum-militaria-in-english) · [Hämeenlinna Art Museum (EN)](https://www.hameenlinnantaidemuseo.fi/in-english/)
 - [Ravintola Bora](https://bora.fi/) · [Popino](https://popino.fi/) · [Piparkakkutalo](https://www.ravintolapiparkakkutalo.fi/) · [HugoPark Aulanko](https://www.hugopark.fi/aukioloajat) · [Hämeenlinnan Oppaat](https://hameenlinnanoppaat.fi/hinnasto/)
-- Weather: [Open-Meteo](https://open-meteo.com/) (18 Oct 2026 run). Distances/times: OSRM on OpenStreetMap routing data, computed **from your coordinates 60.9206667, 24.4445667**; local hydrography/roads cross-checked with OpenStreetMap via the Overpass API (18 Oct 2026). Fire-warning services (`palontorjunta.fi`, Sparkriski) were unreachable from my network — verify locally.
+- Weather: [Open-Meteo](https://open-meteo.com/) (18 Oct 2026 run). Distances/times: OSRM on OpenStreetMap routing data, computed **from your coordinates 60.9206667, 24.4445667**; local hydrography/roads cross-checked with OpenStreetMap via the Overpass API (18 Oct 2026) — **every query is reproducible: see [`overpass_queries.md`](overpass_queries.md)**. Fire-warning services (`palontorjunta.fi`, Sparkriski) were unreachable from my network — verify locally.
 - School-holiday context: Hämeenlinna early-childhood holiday dates — **syysloma week 42 = 12–16 Oct 2026** ([source page](https://www.hameenlinna.fi/varhaiskasvatus-ja-koulutus/varhaiskasvatus/loma-ja-paivystysajat/)), i.e. the crowds have gone home by your Monday.
 
 ### Known gaps (couldn't verify from this network)
