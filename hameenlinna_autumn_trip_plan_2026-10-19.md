@@ -259,7 +259,7 @@ Cottage → Lahti **86.2 km, ~88 min**. Leave by 13:00 and you're home before 15
 ## Booking checklist (do these today, from the sources above)
 
 - [ ] **Cottage host:** bike surface at the door + where kids can ride safely, exactly which water you front and where you may walk to it, sauna heating time/wood, hot tub filling & rules, early luggage drop Monday ~10:00.
-- [ ] **Häme Castle** — buy 1 family ticket (€35) for Tue 20 Oct; ask about children's programme after 18 Oct: **+358 295 33 6931**.
+- [ ] **Häme Castle** — buy 1 family ticket (€35) for Tue 20 Oct; no booking needed for the permanent exhibitions. Queue is shortest right at 10:00.
 - [ ] **Piparkakkutalo** table for Tuesday evening (Tue–Thu 17–22): **+358 3 648 040**.
 - [ ] **Ajito Sushi** (kids' buffet) availability: **+358 46 922 9882**. *(Ignore their website — it's currently serving casino spam.)*
 - [ ] **Appara Elämyskeskus**: bike rental + rope-park autumn opening: **+358 50 350 9295**.
