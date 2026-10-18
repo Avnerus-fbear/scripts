@@ -115,40 +115,27 @@ Rules of thumb for this group:
 - `Katiskoskentie` here is an **unclassified rural road with no cycle lane and no shoulder**. If it feels too exposed, don't fight it — **load the bikes and drive the 9.3 km / 20 min to Aulanko**, where you can ride entirely off-road.
 - **Print or screenshot the satellite image below** and show it to the host: *"which of these tracks actually exist and are rideable?"* Local knowledge beats OSM here, and they'll point you at the one that isn't a logging trail.
 
-## 🗺️ The cottage area — map + satellite (10.5 × 6.5 km window, annotated)
+## 🗺️ The cottage area — map + satellite (annotated)
 
-Top: OpenStreetMap. Bottom: satellite. Yellow dashed rings are **1 / 2 / 3 km from the cottage door**; red dot = cottage, orange = Katiskoski rapids (~275 m), cyan = Jokilanjoki river (~840 m).
+Two views of the same **10.5 × 6.5 km** window, top = OpenStreetMap, bottom = satellite. Both carry the same overlay: **yellow dashed rings at 1 / 2 / 3 km from your cottage door** (each ring has a boxed number on the north side) and three dots.
 
 ![Annotated map and satellite view of the Katiskoski cottage area](img/katiskoski_cottage_area_annotated.png)
 
-*Basemaps: © OpenStreetMap contributors (tile.openstreetmap.org, z13) and Esri World Imagery via tiles.weserv.nl; annotations, rings and markers drawn by me. Note the pale linear features radiating through the forest — those are the untagged tracks in the table above.*
+| Marker | What it is | Distance from cottage |
+|---|---|---|
+| 🔴 red dot | **Cottage, Katiskoskentie 450** (60.9204924, 24.4373749) | 0 m |
+| 🟠 orange dot | **Katiskoski rapids** — the village bend in the road | ~275 m |
+| 🔵 cyan dot | **Jokilanjoki river** (nearest mapped named watercourse) | ~840 m |
 
-**What you can see and should check:** the cottage sits where Katiskoskentie crosses from lakes/forest into a patch of cleared land, with a cluster of small settlement/driveway ways around it. The **southwest and north-east quadrants have the most continuous line network**; the ground immediately east towards Jokilanjoki looks more fragmented (and is where the mud-tagged segment lives).
+*Basemaps: © OpenStreetMap contributors (tile.openstreetmap.org, z13) and Esri World Imagery, served via images.weserv.nl. Rings, dots and scale bar drawn by me.*
 
-### 13:30 — Drive 9.3 km / 20 min to **Aulanko** (Ulkoilumaja, Linnanen 77)
-The city's own description: *"Aulanko is the jewel of Hämeenlinna"* — a national-urban-park forest park that has drawn visitors for over a century. ([City of Hämeenlinna – Aulanko](https://www.hameenlinna.fi/matkailu-ja-tapahtumat/nae-ja-koe-hameenlinnassa/luontoelamysten-aulanko/))
+**Why there are no words printed on the map:** my first version baked text labels into the image with ImageMagick's internal font renderer, which drew every glyph as a hollow box — exactly what you saw. The overlay is now built as real SVG geometry (rings, dots, boxed 1/2/3 km markers, scale bar) composited onto both tiles, and all names live in this table so they render correctly everywhere.
 
-Verified things to do there:
-- **Aulangonjärven polku, ~7 km** — starts at the Ulkoilumaja, runs on duckboards (*pitkospuut*) into the **Sibelius Forest** and up the Kärmeskallio "fitness stairs". With your kids, walk **1.5–2 km of it and turn back**; the boardwalks are great for little legs and there are campfire sites en route.
-- **Joutsenlampi nature trail, ~1 km** — a marked loop around a pond with ~50 labelled tree species, explicitly described by the city as **suitable for prams and wheelchairs**. This is your best 2-year-old-friendly walk.
-- **Aulanko MTB route, 13.8 km** — real mountain-bike route through the park forest, roots and rock sections up to the hilltop viewpoint. Fun for the adults; too hard for a 4-year-old on his own bike. If you want to ride *together*, stay on the park roads.
-- **Bear Cave (*Karhuluola*)** — stairs down from the scenic platform to a "bear family" sculpture (Robert Stiggel, 1905) and the lakeshore. Kids love counting the stairs back up. Free.
+**Vector version of the overlay** (rings, dots and 1/2/3 km markers as real SVG geometry — opens sharp at any zoom): [`img/katiskoski_cottage_area_map.svg`](img/katiskoski_cottage_area_map.svg)
 
-### 15:00 — Pick ONE of these (you've already seen the tower)
+**What to look for in the satellite strip:** the cottage sits where Katiskoskentie crosses from lake and forest into a small clearing. The **south-west and north-east quadrants carry the most continuous pale lines** — those are the tracks in the table above, including the gravel spur 240 m to the SW. Ground immediately east towards Jokilanjoki looks more broken up, which matches that corner holding the `surface=mud` segment.
 
-**→ New for you: Hämeenlinnan ortodoksinen kirkko (Orthodox church of All Saints), Erottajakatu 20**
-A deliberate change of texture from a forest-and-castle trip: a small, warm, candle-lit **wooden Orthodox church from the 1860s Russian period**, right in the middle of the wooden Old Town district — Hämeenlinna was rebuilt as a grid town under Gustav III after the 1777 fire, and this quarter is what survives of it. It sits ~450 m from the castle hill, so it slots into Tuesday's castle walk rather than costing you a drive.
-- Free entry; churches like this are normally open to visitors in daylight — **there is no doorbell-free 2-year-old version of a museum**, so treat it as a 15–20 minute "look at the gold icons and the candles" visit, not a tour. Take the carrier, speak quietly, and let the 4-year-old count candles.
-- ⚠️ **Not verified**: I could not reach a parish or tourism page with current opening hours from this network (all `hameenlinnan…seurakunta` domains failed DNS). Ask at the castle museum shop or call the city service point **+358 3 621 3370** to confirm it's open Tuesday.
-- If it's shut, the fallback in the same 400 m is **Kirkkorinne / Kirjassamme**-style old-town wooden streets and the **Albertin Kellari** vaulted cellar bar under the old church hill (adults take turns while someone's outside with the toddler).
-
-**→ Revisit option, still worth it: Aulangon näkötorni (view tower)**
-I know you've done it — I'm keeping it on the list because it is genuinely the best thing in the area and it's **free, open daily 08:00–20:00 until the end of October**, and almost empty in late October versus summer. In autumn you get the Vanajavesi national-landscape view with frost in the valleys and no queue, which is a different visit from a July one. The **tower cafe is a summer-only cafe** (*"avoinna kesäaikaan ja tilauksesta ympäri vuoden"*), so bring the thermos. ([City EN page](https://www.hameenlinna.fi/en/tourism-and-events/aulanko-the-beauty-of-finnish-nature/), [Aulanko page](https://www.hameenlinna.fi/matkailu-ja-tapahtumat/nae-ja-koe-hameenlinnassa/luontoelamysten-aulanko/))
-
-![Aulanko view tower](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Hameenlinna_Aulanko_Nature_Reserve_tower.jpg/1280px-Hameenlinna_Aulanko_Nature_Reserve_tower.jpg)
-*The 1906 granite observation tower on Aulangonvuori. Photo: Wikimedia Commons, CC BY-SA.*
-
-### 17:30 — Back to the cottage: first sauna + hot tub night
+## 17:30 — Back to the cottage: first sauna + hot tub night
 This is your anchor every evening; treat it as the main event, not the afterthought.
 - Light the sauna early (ask the host how long the stove takes — plan **2–2.5 h**).
 - With air at 0…+5 °C and water nearby, the hot tub at ~+38 °C with cold air on the face is the highlight of a Finnish October for a 4-year-old. Set a timer for the 2-year-old (short dips, keep head dry and warm).
