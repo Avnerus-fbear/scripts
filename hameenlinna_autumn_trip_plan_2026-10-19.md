@@ -119,7 +119,7 @@ Rules of thumb for this group:
 
 Two views of the same **10.5 × 6.5 km** window, top = OpenStreetMap, bottom = satellite. Both carry the same overlay: **yellow dashed rings at 1 / 2 / 3 km from your cottage door** (each ring has a boxed number on the north side) and three dots.
 
-![Annotated map and satellite view of the Katiskoski cottage area](img/katiskoski_cottage_area_annotated.png)
+![Annotated map and satellite view of the Katiskoski cottage area](img/katiskoski_cottage_area_annotated.jpg)
 
 | Marker | What it is | Distance from cottage |
 |---|---|---|
@@ -129,7 +129,7 @@ Two views of the same **10.5 × 6.5 km** window, top = OpenStreetMap, bottom = s
 
 *Basemaps: © OpenStreetMap contributors (tile.openstreetmap.org, z13) and Esri World Imagery, served via images.weserv.nl. Rings, dots and scale bar drawn by me.*
 
-**Why there are no words printed on the map:** my first version baked text labels into the image with ImageMagick's internal font renderer, which drew every glyph as a hollow box — exactly what you saw. The overlay is now built as real SVG geometry (rings, dots, boxed 1/2/3 km markers, scale bar) composited onto both tiles, and all names live in this table so they render correctly everywhere.
+**Two build bugs I hit on the way, so you know what to trust:** (1) my first attempt baked text into the image with ImageMagick's internal font renderer, which had no font available and drew every glyph as a hollow box. (2) The fix then composited an SVG overlay whose **white background was opaque**, so it painted over both map panels and you got a white rectangle — that is what you saw. Both are now resolved: the overlay is rendered with a transparent background before compositing, and I verified it pixel-by-pixel rather than by eye — forest at (100,100) = `#ADD19E`, the 1 km ring east of the cottage = `#FEF10A`, satellite panel below = `#34462E`. Text is deliberately **not** drawn into the image at all; every name lives in the table above.
 
 **Vector version of the overlay** (rings, dots and 1/2/3 km markers as real SVG geometry — opens sharp at any zoom): [`img/katiskoski_cottage_area_map.svg`](img/katiskoski_cottage_area_map.svg)
 
