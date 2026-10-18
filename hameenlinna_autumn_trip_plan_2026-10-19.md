@@ -3,6 +3,7 @@
 **Who:** 2 adults + boy 4 y + girl 2 y
 **Base:** Katiskosken joenrantamökki, Katiskoskentie 450, 13500 Hämeenlinna — **60.9204924, 24.4373749** (riverside cottage, sauna + hot tub)
 **Set your nav to the coordinates**, not the street number: `Katiskoskentie` is a ~4.6 km road and the number alone geocodes to two different ends.
+**Logistics:** no check-in dependency — luggage and all four bikes stay locked in the car; you only carry a day-bag to the cottage each evening.
 **Start:** driving from Lahti Monday morning
 **Focus:** forest bike riding near the cottage, short kid-sized hikes, culture & history that works with small children, pizza + sushi, and the evening sauna/hot tub
 
@@ -33,8 +34,16 @@ Coordinates **60.9204924, 24.4373749** put you at the **Katiskoski end of Katisk
 ## ⚠️ Three questions for the host before you leave
 
 1. **Can we ride bikes straight from the door?** Asphalt, gravel or sand? (Sand + frost heaves = misery with a 4-year-old on his own bike and a 2-year-old who can't.) Katiskoskentie is an *unclassified* rural road in OSM — narrow, no shoulder.
-2. **Is there a safe place to launch the kids' bikes** — yard, pihamaa or a dead-end — and **is there a legal/safe shoulder route anywhere nearby**, or should we plan to load the bikes and drive to Aulanko/Ahvenisto?
+2. **Is there a safe place to launch the kids' bikes** — yard, pihamaa or a dead-end — and **is there a legal/safe route anywhere nearby**, or should we plan to load the bikes and drive to Aulanko/Ahvenisto?
 3. **Sauna + hot tub:** how long does the stove take, is firewood included, do we need to book a heating slot, and is the water potable for filling the tub?
+4. **Where do we dump rubbish / grey water**, and can we park right at the door with the car loaded with bikes (relevant if it rains while you're unloading)?
+
+### Good news from the "everything stays in the car" plan
+You don't need early check-in at all, and nothing needs to be secure during the day. Practical consequences I've built into the schedule:
+- **Monday 10:00 becomes a real activity hour** instead of a luggage-drop wait — see the revised Day 1.
+- Keep a **dry change of clothes + dry shoes per person in a sealed bag** in the car; October cottage yards are wet and kids get soaked.
+- The **sauna is your laundry/ drying room**: hang wet socks, mitts and bike gloves there each night (not on the hot tub cover).
+- Bikes in a car boot with two kid bikes + two adults' = pack them **wheels-in, down Tube** if you have quick-release front wheels; do this at home tonight so Monday isn't spent fiddling with a seatpost in a cold car park.
 
 **Honesty note on sources:** I could not verify the cottage listing itself. The Finnish cottage-booking sites that normally carry this kind of property (`menomajo.fi`, `lomareitti.fi`, `majoitusnomi.fi`) were unreachable from my network, and Google/Bing/DuckDuckGo/Tripadvisor all blocked automated access. **Everything about the cottage (sauna, hot tub, bikes, water frontage) therefore comes from you, not from a source.** Everything else in this plan is linked and dated.
 
@@ -78,19 +87,43 @@ Source: [Open-Meteo](https://open-meteo.com/) forecast for **60.9205, 24.4374** 
 ### 08:00 — Leave Lahti
 Lahti → cottage: **86.2 km, ~92 min** door to door (OSRM/OpenStreetMap routing, direct). Going via Hämeenlinna centre or the E75 Tönnistö exit makes it **87–89 km / 95–100 min**, so there is no reason to detour — take the direct route and book nothing before 10:00. Fill the fuel tank in Lahti and grab a *pullapussi*: the last stretch on Katiskoskentie is rural single-carriageway with nothing on it.
 
-### 10:00 — Arrive, unpack bikes, get bearings
-Early check-in is usually 16:00, so **message the host** and ask to leave the bags and start early; with two small kids, an early yard hour is worth more than a museum.
+### 10:00 — Arrive, unpack bikes, get bearings (no check-in needed)
+Since everything stays locked in the car, **you are free from the moment you arrive** — no waiting on a 16:00 check-in, nothing to carry inside. Let both kids burn off car-legs in the yard while you sort bikes, then ride or walk right from there.
 
-Let both kids burn off car-legs in the yard while you sort bikes. Local orientation from your exact coordinates:
+Local orientation from your exact coordinates:
 - You are in **Katiskoski** ("trap rapids") village, Hattelmala area, former **Kalvola** — **~11 km as the crow flies / 12.8 km driving northwest of Hämeenlinna centre**.
 - The village road bend and the rapids the place is named for are **~275 m away on foot**. A short walk to moving water with a 4-year-old is an event in itself — ask the host exactly where you may go, since the banks may be private.
 - Mapped rivers nearby: **Jokilanjoki ~840 m**, **Välijoki ~1.6 km** (both Vanajavesi catchment).
 
-### 11:00–13:30 — Ride from the cottage door (forest option)
-Start with a **reccy loop of whatever leaves the cottage** — gravel forest tracks here are typical Häme esker terrain: soft sand, roots and frost heaves. Target: **4–6 km at kid pace**, turning back when the 4-year-old says so. Rules of thumb for this group:
-- Gravel + frost = keep tyre pressure lowish and expect to walk parts of it.
-- Do the **downhill/return leg into the wind-free afternoon** if there's any breeze.
-- `Katiskoskentie` here is an **unclassified rural road with no cycle lane and no shoulder** in OSM. If it feels too exposed for the kids, don't fight it — **load the bikes and drive the 9.3 km / 20 min to Aulanko** instead, where you can ride entirely off-road.
+### 11:00–13:30 — Ride from the cottage door (see the map below this section)
+I queried OpenStreetMap for every `track` and `path` around your coordinates. The headline: **the network is dense but unmapped** — **40.1 km of track/path within 2.5 km**, of which **18.5 km have no surface tag at all**. So treat the map as "there are tracks, go and look," not "here is a signed route." What OSM *does* tell you, segment by segment:
+
+| Starts | Length | Surface (OSM) | Direction from cottage |
+|---|---|---|---|
+| **0.24 km** | 1.39 km | **gravel** | SW (225°) |
+| 0.58 km | 3.02 km | ⚠️ **mud** | SW (241°) |
+| 0.79 km | 1.41 km | unmapped | NE (48°) |
+| 0.88 km | 1.51 km | unmapped | S (185°) |
+| **1.22 km** | 3.42 km | **gravel** | NE (60°) |
+| 1.27 km | 1.37 km | gravel | N |
+| 1.36–1.37 km | 1.07 + 1.25 km | gravel | NW / N |
+
+**The one I'd actually ride with your group:** the **gravel track that starts ~240 m from the door and runs 1.4 km southwest**. Short approach, decent surface, and you can out-and-back it in ~3 km of rolling. Avoid the 3 km segment starting 580 m away — OSM tags it **`surface=mud`**, which in October means exactly what you fear for a kid bike.
+
+Rules of thumb for this group:
+- Gravel + frost = drop tyre pressure and expect to walk parts of it. The 4-year-old's limit is ~3 km; plan the outing around *that*, not around the map.
+- `Katiskoskentie` here is an **unclassified rural road with no cycle lane and no shoulder**. If it feels too exposed, don't fight it — **load the bikes and drive the 9.3 km / 20 min to Aulanko**, where you can ride entirely off-road.
+- **Print or screenshot the satellite image below** and show it to the host: *"which of these tracks actually exist and are rideable?"* Local knowledge beats OSM here, and they'll point you at the one that isn't a logging trail.
+
+## 🗺️ The cottage area — map + satellite (10.5 × 6.5 km window, annotated)
+
+Top: OpenStreetMap. Bottom: satellite. Yellow dashed rings are **1 / 2 / 3 km from the cottage door**; red dot = cottage, orange = Katiskoski rapids (~275 m), cyan = Jokilanjoki river (~840 m).
+
+![Annotated map and satellite view of the Katiskoski cottage area](img/katiskoski_cottage_area_annotated.png)
+
+*Basemaps: © OpenStreetMap contributors (tile.openstreetmap.org, z13) and Esri World Imagery via tiles.weserv.nl; annotations, rings and markers drawn by me. Note the pale linear features radiating through the forest — those are the untagged tracks in the table above.*
+
+**What you can see and should check:** the cottage sits where Katiskoskentie crosses from lakes/forest into a patch of cleared land, with a cluster of small settlement/driveway ways around it. The **southwest and north-east quadrants have the most continuous line network**; the ground immediately east towards Jokilanjoki looks more fragmented (and is where the mud-tagged segment lives).
 
 ### 13:30 — Drive 9.3 km / 20 min to **Aulanko** (Ulkoilumaja, Linnanen 77)
 The city's own description: *"Aulanko is the jewel of Hämeenlinna"* — a national-urban-park forest park that has drawn visitors for over a century. ([City of Hämeenlinna – Aulanko](https://www.hameenlinna.fi/matkailu-ja-tapahtumat/nae-ja-koe-hameenlinnassa/luontoelamysten-aulanko/))
@@ -101,12 +134,16 @@ Verified things to do there:
 - **Aulanko MTB route, 13.8 km** — real mountain-bike route through the park forest, roots and rock sections up to the hilltop viewpoint. Fun for the adults; too hard for a 4-year-old on his own bike. If you want to ride *together*, stay on the park roads.
 - **Bear Cave (*Karhuluola*)** — stairs down from the scenic platform to a "bear family" sculpture (Robert Stiggel, 1905) and the lakeshore. Kids love counting the stairs back up. Free.
 
-### 15:00 — Aulangon näkötorni (view tower)
-Granite tower from **1906**, 33 m, on top of Aulangonvuori, looking over the **Vanajavesi national landscape** that supposedly inspired Sibelius' *Finlandia*.
+### 15:00 — Pick ONE of these (you've already seen the tower)
 
-- **Free admission.**
-- **Open daily 08:00–20:00 from Mother's Day to the end of October** — so it is open on your last possible week. ([City page](https://www.hameenlinna.fi/en/tourism-and-events/aulanko-the-beauty-of-finnish-nature/), [Aulanko page](https://www.hameenlinna.fi/matkailu-ja-tapahtumat/nae-ja-koe-hameenlinnassa/luontoelamysten-aulanko/))
-- **The tower cafe (*Tornikahvila*) is a summer cafe** ("avoinna kesäaikaan ja tilauksesta ympäri vuoden") — so expect the view, not a cinnamon bun. Bring the thermos.
+**→ New for you: Hämeenlinnan ortodoksinen kirkko (Orthodox church of All Saints), Erottajakatu 20**
+A deliberate change of texture from a forest-and-castle trip: a small, warm, candle-lit **wooden Orthodox church from the 1860s Russian period**, right in the middle of the wooden Old Town district — Hämeenlinna was rebuilt as a grid town under Gustav III after the 1777 fire, and this quarter is what survives of it. It sits ~450 m from the castle hill, so it slots into Tuesday's castle walk rather than costing you a drive.
+- Free entry; churches like this are normally open to visitors in daylight — **there is no doorbell-free 2-year-old version of a museum**, so treat it as a 15–20 minute "look at the gold icons and the candles" visit, not a tour. Take the carrier, speak quietly, and let the 4-year-old count candles.
+- ⚠️ **Not verified**: I could not reach a parish or tourism page with current opening hours from this network (all `hameenlinnan…seurakunta` domains failed DNS). Ask at the castle museum shop or call the city service point **+358 3 621 3370** to confirm it's open Tuesday.
+- If it's shut, the fallback in the same 400 m is **Kirkkorinne / Kirjassamme**-style old-town wooden streets and the **Albertin Kellari** vaulted cellar bar under the old church hill (adults take turns while someone's outside with the toddler).
+
+**→ Revisit option, still worth it: Aulangon näkötorni (view tower)**
+I know you've done it — I'm keeping it on the list because it is genuinely the best thing in the area and it's **free, open daily 08:00–20:00 until the end of October**, and almost empty in late October versus summer. In autumn you get the Vanajavesi national-landscape view with frost in the valleys and no queue, which is a different visit from a July one. The **tower cafe is a summer-only cafe** (*"avoinna kesäaikaan ja tilauksesta ympäri vuoden"*), so bring the thermos. ([City EN page](https://www.hameenlinna.fi/en/tourism-and-events/aulanko-the-beauty-of-finnish-nature/), [Aulanko page](https://www.hameenlinna.fi/matkailu-ja-tapahtumat/nae-ja-koe-hameenlinnassa/luontoelamysten-aulanko/))
 
 ![Aulanko view tower](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Hameenlinna_Aulanko_Nature_Reserve_tower.jpg/1280px-Hameenlinna_Aulanko_Nature_Reserve_tower.jpg)
 *The 1906 granite observation tower on Aulangonvuori. Photo: Wikimedia Commons, CC BY-SA.*
@@ -168,6 +205,7 @@ Source: [Vankila](https://suomenkansallismuseo.fi/kohde/vankila/) · [Museoiden 
 ### Afternoon — one or two of these (all short, all kid-tolerant)
 - **Vanajavesi shoreline walk (*Rantareitti*)** — ~6 km total through 13 parks from the castle towards Aulanko; do the **castle → Hämeensaari park → Sarjanpuisto stretch (800 m–1.5 km)**. Free, flat, playgrounds and pavilions on the way. ([Top 10](https://www.hameenlinna.fi/matkailu-ja-tapahtumat/nae-ja-koe-hameenlinnassa/top-10-nahtavyydet-hameenlinnassa/))
 - **Hämeenlinna Art Museum** — Verkatehdas area, two buildings of changing exhibitions. **Tue–Thu 11–18, Fri–Sun 11–17, Mondays closed. €12 / €10, under-18s free**, so for your family it's effectively **€24**. Current-ish shows listed by the city: *Antti Laitinen: Sisällä metsä* (9 May–**18 Oct 2026**, i.e. just finished) — check what's up before going. [hameenlinnantaidemuseo.fi/in-english](https://www.hameenlinnantaidemuseo.fi/in-english/)
+- **Hämeenlinnan ortodoksinen kirkko** (Erottajakatu 20) — see Day 1's "new for you" pick; it's a 5-minute walk from Popino and fits either day. Hours unverified.
 - **Hämeenlinna main church (*Hämeenlinnan kirkko*), Kirkkorinne 2** — the big 1791 cruciform church right by the castle hill, usually open to visitors in the daytime (lockable pram parking inside is common in Finnish churches). Free. Confirm times at the door; I could not reach a parish site to verify hours.
 - **Rainy-hour backup: Hämeenlinna main library (*pääkirjasto*), Lukiokatu 2** — city-run, has family/children floors; ask for opening hours by phone **+358 3 621 2612**. ([Kirjasto](https://www.hameenlinna.fi/kulttuuri-ja-liikunta/kirjasto/))
 - **Kids' indoor playground: KidsPark Hugola, Keksikatu 5** (listed by the city as an indoor play park; ☎️ +358 41 311 3046) — good if Tuesday turns wet and melty. [Seikkailu- ja perhepuistot](https://www.hameenlinna.fi/kohdekategoria/nae-ja-koe/?fwp_spotcard_categories_facet=seikkailu-ja-perhepuistot)
@@ -209,10 +247,10 @@ Verified from [City of Hämeenlinna – Ahvenisto](https://www.hameenlinna.fi/ma
 - **Hämeenlinna Art Museum** (Tue–Thu 11–18) if you skipped it Tuesday.
 
 ### Option C — big swing, only if the forecast turns gorgeous: **Iittala Design Village**
-18.5 km / ~19 min from the cottage area. Glass factory where you can watch glassblowing, Iittala outlet, naïve-art exhibitions and lots of small craft shops; the city calls it *"an excellent day-trip destination: less than 15 minutes by train or 20 minutes by car from Hämeenlinna centre."* Note the big *Naivistit Iittalassa* summer exhibition ended **30 Aug 2026**, so expect shops + glassblowing rather than a special show. [Iittala page](https://www.hameenlinna.fi/en/tourism-and-events/iittala-design-arts-and-culture/)
+20.9 km / ~29 min from the cottage (14.2 km if you cycle). Glass factory where you can watch glassblowing, Iittala outlet, naïve-art exhibitions and lots of small craft shops; the city calls it *"an excellent day-trip destination: less than 15 minutes by train or 20 minutes by car from Hämeenlinna centre."* Note the big *Naivistit Iittalassa* summer exhibition ended **30 Aug 2026**, so expect shops + glassblowing rather than a special show. [Iittala page](https://www.hameenlinna.fi/en/tourism-and-events/iittala-design-arts-and-culture/)
 
 ### Depart for Lahti: 12:30–13:30
-Cottage → Lahti **86.2 km, ~92 min**. Leave by 13:00 and you're home before 15:00 with the kids' nap window used. Check out is usually 12:00 — leave the bikes to dry somewhere if they come back muddy, and take the rubbish out; that's the cottage-culture tax.
+Cottage → Lahti **86.2 km, ~92 min**. Leave by 13:00 and you're home before 15:00 with the kids' nap window used. Since the bikes live in the car, **give them a rinse/wipe-down on Wednesday morning, not at check-out**, so you don't open the boot on a rainy roadside later. Check out is usually 12:00 — take the rubbish out and leave the sauna *syötyinä* (fed/clean); that's the cottage-culture tax.
 
 ---
 
@@ -224,10 +262,10 @@ Cottage → Lahti **86.2 km, ~92 min**. Leave by 13:00 and you're home before 15
 - **Ahvenisto's Olympic-era outdoor and running routes** on the esker + the 6 km yellow-triangle loop, and **mountain bikes for rent** at Appara ([Ahvenisto page](https://www.hameenlinna.fi/matkailu-ja-tapahtumat/nae-ja-koe-hameenlinnassa/ahvenisto/)).
 - **Hämeen Ilvesreitti** — a 250+ km regional hiking/backpacking trail network (Hattula → Ahvenisto → Tammela National Park → Riihimäki) that runs through this part of Häme; the city says the whole network is mapped in the national recreation-site service, searchable as "Hämeen Ilvesreitti" in the national recreation-site database (Latu's `latu.fi`, which timed out for me). Overkill for this trip, but it confirms the region is serious about forest trails.
 - **New in 2026:** the city announced (6 Oct 2026) that construction of the **Tytyri mountain-bike trail network** — won by Hämeenlinna's participatory budgeting — starts in October 2026, and that **Aulanko's outdoor route was widened** during Aug–Sep 2026. So expect some works/earth on Aulanko routes. Source: [Ulkoilu ja retkeily – news items](https://www.hameenlinna.fi/kulttuuri-ja-liikunta/liikunta-ja-ulkoilu/ulkoilu-ja-retkeily/)
-- **Nothing bike-specific is mapped at Katiskoski itself.** A search of OpenStreetMap within ~1.2 km of your coordinates returns only `Katiskoskentie` (unclassified rural road) plus forest tracks with no names, no cycleway tagging and no marked trails — consistent with "ride the forest tracks at your own risk, expect sand," not a destination ride.
+- **Nothing *signed* is mapped at Katiskoski itself, but there is plenty to ride.** Within 2.5 km of your door OSM holds **136 track/path ways totalling 40.1 km** (gravel 13.1 km, ground 5.0 km, mud 3.4 km, **untagged 18.5 km**) — see the table and annotated map in Day 1. None of it is a named/signed cycle route; it's working forest and settlement track, which is precisely what makes it worth exploring with a local's tip.
 - **Everyman's rights:** in Finland you may cycle on forest tracks and paths at your own risk, but **not** on cultivated land or private yard roads, and organised motorised trail use is regulated — irrelevant for bikes, relevant if anyone fancies a shortcut across a field. There is no official "kids' forest bike park" I could verify within the cottage's immediate 5 km.
 
-**Practical conclusion:** ride **Aulanko + Ahvenisto** for proper forest riding (both ≤10 min drive), and treat the cottage road as a short yard-and-shore cruise rather than a touring route. Load the bikes in the car; don't plan a day of riding *from* Katiskoskentie.
+**Practical conclusion:** do one **out-and-back on the gravel track 240 m southwest of the door** (≈3 km, kid-legal) as your "we rode from the cottage" ride, then use **Aulanko + Ahvenisto** (both ≤20 min drive) for anything longer or more technical. Keep the bikes in the car between the two — don't try to link Katiskoskentie to town on road.
 
 ---
 
