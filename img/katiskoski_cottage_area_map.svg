@@ -12,7 +12,7 @@
 <rect x="566" y="43" width="34" height="26" rx="4" fill="#111111" fill-opacity="0.82" stroke="#fff200" stroke-width="1.2"/>
 <text x="583" y="63" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" fill="#fff200">3</text>
 <circle cx="553" cy="381" r="8" fill="#ff2a2a" stroke="white" stroke-width="2.5"/>
-<circle cx="513" cy="354" r="8" fill="#ff9500" stroke="white" stroke-width="2.5"/>
+<circle cx="553" cy="211" r="8" fill="#00e676" stroke="white" stroke-width="2.5"/>
 <circle cx="578" cy="442" r="8" fill="#00cfff" stroke="white" stroke-width="2.5"/>
 <rect x="32" y="590" width="125" height="30" rx="5" fill="#111111" fill-opacity="0.82"/>
 <line x1="44" y1="604" x2="136" y2="604" stroke="white" stroke-width="3.5"/>

@@ -130,12 +130,27 @@ Two views of the same **10.5 × 6.5 km** window, top = OpenStreetMap, bottom = s
 | 🔴 red dot | **Cottage, Katiskoskentie 450** (60.9206667, 24.4445667) | 0 m |
 | 🟠 orange dot | **Katiskoski village road bend** — where the rapids are named for | ~430 m WNW |
 | 🔵 cyan dot | **Jokilanjoki river** (the river you front; nearest OSM point ~27 m from the cottage) | 0 m |
+| 🟢 green dot | **Nearest mapped public firepit** — `leisure=firepit`, access=yes (~1.6 km north). Nothing closer is mapped | ~1.6 km |
 
 The orange and cyan markers sit right beside the red one — which is precisely the point of the corrected coordinates.
 
 *Basemaps: © OpenStreetMap contributors (tile.openstreetmap.org, z13) and Esri World Imagery, served via images.weserv.nl. Rings, dots and scale bar drawn by me.*
 
 **Two build bugs I hit on the way, so you know what to trust:** (1) my first attempt baked text into the image with ImageMagick's internal font renderer, which had no font available and drew every glyph as a hollow box. (2) The fix then composited an SVG overlay whose **white background was opaque**, so it painted over both map panels and you got a white rectangle — that is what you saw. Both are now resolved: the overlay is rendered with a transparent background before compositing, and I verified it pixel-by-pixel rather than by eye — forest at (100,100) = `#ADD19E`, the 1 km ring east of the cottage = `#FEF10A`, satellite panel below = `#34462E`. Text is deliberately **not** drawn into the image at all; every name lives in the table above.
+
+### 🔥 Outdoor grill / campfire — what public data can and cannot tell you
+
+I queried OpenStreetMap for every `leisure=fireplace`, `leisure=firepit`, `leisure=picnic_table` and `amenity=bbq|grill` within 8 km of the cottage. **Twelve exist in that radius — and none of them is anywhere near you.** The closest mapped firepit sits **~1.6 km north** (60.9348, 24.4446); the rest are 5–7 km out. Nothing at all within ~1.5 km, and no grill/fireplace tagged on any of the ~70 building footprints around your door. So:
+
+- **OSM cannot confirm a grill at the cottage** — but that is *not* evidence there isn't one. The same query returns 12 features in an 8 km radius, so the endpoint and tags work fine; it's this specific address that is simply not mapped at that level. OSM maps public amenities; private cottage yards in rural Kalvola are essentially unmapped (the 70-odd building footprints within 600 m of your door are almost all unlabeled `building=yes`). A rental's grill is exactly the kind of thing that never gets mapped.
+- **The practical expectation is yes.** A Finnish riverside holiday cottage with a sauna almost always has a *grillikatos* (covered grill shelter) or a *nuotiopaikka* (fire pit), and in October you'd want the covered one. But you need smoke-free, dry conditions to grill with a 2-year-old, so treat it as a bonus, not a plan.
+- **Ask the host two questions:** is there a covered grill (*grillikatos*) or fire pit, and **is open fire allowed right now** — Finland runs seasonal forest-fire warnings (*avotulointikielto*), and although the dry forecast helps, a warning would rule out an open fire. Check the municipality's notice board / [palontorjunta.fi](https://www.palontorjunta.fi/) and Sparkriski (both unreachable from my network).
+- **Bring your own charcoal and lighter fluid.** The nearest shops are in Kalvola centre (~6 km) or Hämeenlinna town (12.8 km); nothing is on your road, and you arrive after the supermarkets have started closing for the evening.
+
+**If you want a guaranteed public fire spot**, OSM shows one named *laavu*-style shelter, **Kuokkaman kota** (`leisure=firepit`, 60.9826, 24.3884), about **7.5 km north of the cottage / ~12 min by car** — a smoke hut with benches, which is genuinely rain-proof and good for kids' sausages. The other mapped firepits are 5–7 km out in scattered forest spots with no facilities.
+
+> Reproduce it yourself (see [`overpass_queries.md`](overpass_queries.md)):
+> `nwr(around:8000,60.9207,24.4446)["leisure"~"fireplace|firepit|picnic_table"]; out center;`
 
 **Vector version of the overlay** (rings, dots and 1/2/3 km markers as real SVG geometry — opens sharp at any zoom): [`img/katiskoski_cottage_area_map.svg`](img/katiskoski_cottage_area_map.svg)
 
