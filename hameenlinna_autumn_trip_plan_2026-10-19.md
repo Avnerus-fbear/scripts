@@ -152,6 +152,28 @@ I queried OpenStreetMap for every `leisure=fireplace`, `leisure=firepit`, `leisu
 > Reproduce it yourself (see [`overpass_queries.md`](overpass_queries.md)):
 > `nwr(around:8000,60.9207,24.4446)["leisure"~"fireplace|firepit|picnic_table"]; out center;`
 
+### 🌡️ River temperature at the dipping point — honest answer: nobody measures it
+
+**There is no live water-temperature reading for Jokilanjoki at Katiskoski.** I checked what exists: Finland's official surface-water database (SYKE *pintavesi/AKVa*) and the Finnish Environment Institute's monitoring APIs are not reachable as open endpoints from here, and — more importantly — **a small river like this simply has no instrumented station at your dipping point**. National networks measure large lakes and major rivers; a 4.6 km road named after local rapids does not get a buoy. Satellite surface-temperature products (SYKE's Sentinel-3 SLSTR lake aggregate) resolve ~1 km pixels for *lakes*, and the nearest open water is Vanajavesi, not your stretch of river.
+
+**So here is a defensible estimate instead, with its arithmetic shown.** Water in a shallow, running lowland river tracks the *mean* recent air temperature with a lag — it warms and cools far more slowly than daily air swings. Two inputs from Open-Meteo for grid point 60.9207, 24.4446:
+
+| Input | Value |
+|---|---|
+| Mean air temperature, last 36 h (to 20 Oct ~16:30) | **+2.8 °C** |
+| Mean air temperature, last 72 h | **+2.7 °C** |
+| Daily mean air temp, 7–17 Oct (the fortnight the river "remembers") | +4.5 to +11.0 °C |
+| Soil temperature at 6 cm depth, midday Mon/Tue | +3.3 to +4.2 °C |
+
+**Estimated river surface temperature: roughly +4 to +7 °C (≈39–45 °F) during your stay**, probably a degree or two warmer in shallow sunlit margins at midday and closer to +4 °C in the shaded, fast-flowing run by the rapids. Rationale: the strong warm spell up to 17 Oct (daily means 8–11 °C) held river temperature up, while the sharp cold snap of the last 3 days (mean +2.7 °C) has barely begun to bite into a water body with any depth. Rising air temps on Monday/Tuesday (+7 °C highs, calm, sunny) push the top of that range; Wednesday's rain and wind hold it down.
+
+**What that means practically — this is not swimming water.** At +4 to +7 °C, cold-water immersion causes gasping and loss of breathing control within the first minute; a 4-year-old and a 2-year-old must never be in it, and adults should keep any dip to seconds and always with someone on the bank. If you want a *dip*, that's what the cottage sauna plus cool-air cooling is for, not the river.
+
+**How to get a real number (the only reliable way):** take a kitchen thermometer down to the bank in the evening and leave it in the flowing water for 2–3 minutes, then read it at eye level without stirring. Do this at your intended dipping spot, since shallow sunlit margins can be several degrees warmer than the main channel. If you want to check official figures before you go, SYKE's surface-water info is published through [pintavesi.fi](https://www.pintavesi.fi/) and the national map service [paikkatietohakemisto.fi](https://www.paikkatietohakemisto.fi/) — search for *Vanajavesi* water observations; there will be nothing labelled Katiskoski.
+
+> Reproduce my air-temperature inputs (see [`overpass_queries.md`](overpass_queries.md) for the map queries):
+> `https://api.open-meteo.com/v1/forecast?latitude=60.9207&longitude=24.4446&hourly=temperature_2m,soil_temperature_6cm&timezone=Europe/Helsinki`
+
 **Vector version of the overlay** (rings, dots and 1/2/3 km markers as real SVG geometry — opens sharp at any zoom): [`img/katiskoski_cottage_area_map.svg`](img/katiskoski_cottage_area_map.svg)
 
 **What to look for in the satellite strip:** the cottage sits where Katiskoskentie threads between lake, forest and river at the rapids. The **south-west and north-east quadrants carry the most continuous pale lines** — those are the tracks in the table above, including the gravel spur to the SW. Ground right along the river is more broken up, which matches that corner holding the `surface=mud` segment.
